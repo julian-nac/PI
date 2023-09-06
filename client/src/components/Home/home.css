@@ -1,0 +1,89 @@
+.home-container {
+    padding: 20px;
+  }
+  .videogame-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 370px);
+    gap: 100px;
+    padding: 40px;
+    margin: 0;
+    justify-content: center;
+    transition: margin-left 0.3s 0.1s;
+    text-align: center;
+  }
+  .top-bar {
+    background-color: #151621;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    border: 2px solid black; /* Borde negro de 2px */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Sombra */
+  }
+  
+  .logo-container {
+    display: flex;
+    align-items: center;
+}
+
+.secondary-logo{
+  width: 250px;   
+  height: auto; 
+  margin-top: 40px;
+}
+.primary-logo {
+    width: 150px; /* Ajusta el tamaño según tus necesidades */
+    height: 150px; /* Ajusta el tamaño según tus necesidades */
+    margin-right: 10px; /* Espacio entre los logotipos */
+    margin-top: 20px;
+}
+.loading-message {
+  font-size: 30px;
+  font-family: "Candara", sans-serif; /* Cambiar a la fuente Candara */
+  text-align: center;
+  margin-top: -1px;
+  margin-left: 150%;
+  color: white; /* Color de las letras en blanco */
+  text-shadow: 5px 5px 10px black; /* Sombrado de las letras */
+}
+.loading-gif {
+  width: 200px; /* Ajusta el tamaño del GIF */
+  height: auto; /* Para mantener la proporción */
+  margin-left: 150%;
+  margin-top: 20px;
+}
+
+.fondo-logo {
+  width: 1100px;
+  display: flex;
+  align-items: center;
+  margin-left: 50%;
+  margin-top: 40px;
+}
+  
+  body {
+    margin: 0; /* Elimina el margen predeterminado del body */
+    padding: 0; /* Elimina el padding predeterminado del body */
+    background-color: #011c38d4; /* Color azul medianoche */
+  }
+
+  .gallery-link {
+    display: flex;
+    align-items: center;
+    margin-left: 650px; 
+  }
+  
+  .gallery-link p {
+    color: white;
+    font-size: 24px;
+    margin: 0;
+    font-family: "Candara", sans-serif; 
+    cursor: pointer;
+  }
+  
+  .gallery-link a {
+    text-decoration: none;
+    margin-right: 20px; 
+  }
+
+  

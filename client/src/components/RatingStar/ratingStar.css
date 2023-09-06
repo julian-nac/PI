@@ -1,0 +1,21 @@
+.rating-stars {
+  display: flex;
+  align-items: center;
+  justify-content: center; /* Centra horizontalmente */
+  margin-top: 30px; /* Aleja un poco del top */
+}
+
+.star {
+  font-size: 18px; /* Ajusta el tamaño de las estrellas */
+  font-weight: bold; /* Agrega negrita */
+  line-height: 1; /* Ajusta el espaciado vertical */
+  margin: 0 1px; /* Agrega un pequeño espacio horizontal entre las estrellas */
+}
+
+.full-star {
+  color: rgb(203, 174, 4);
+}
+
+.empty-star {
+  color: rgb(131, 130, 130);
+}

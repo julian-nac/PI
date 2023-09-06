@@ -1,0 +1,60 @@
+.landing_page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Esto es opcional, ajusta la altura según tus necesidades */
+    background-image: url("https://rare-gallery.com/livewalls/imgpreview/141780-corsair-rgb-gaming-corner-live-wallpaper.jpg"); /* Ruta de la imagen de fondo */
+    background-size: cover; /* Ajustar tamaño para cubrir todo el contenedor */
+    background-position: center; /* Centrar la imagen */
+    background-repeat: no-repeat; /* Evitar repetición de la imagen */
+  
+    h4 {
+      font-size: 480px; /* Tamaño grande del h4 */
+      text-align: center; /* Centrar el texto del h4 */
+    }
+}
+
+.landing_title {
+    font-size: 70px;
+    font-family: "Candara", sans-serif; /* Cambiar a la fuente Candara */
+    text-align: center;
+    margin-top: -180px;
+    color: white; /* Color de las letras en blanco */
+    text-shadow: 5px 5px 10px black; /* Sombrado de las letras */
+  }
+
+  .custom_button {
+    display: block;
+    margin-top: 20px;
+    padding: 9px 20px; /* Ajustar el padding horizontal según tus necesidades */
+    font-size: 24px;
+    font-family: "Lucida Bright", sans-serif;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 10px;
+    cursor: pointer;
+    width: fit-content;
+    text-align: center;
+    margin: 0 auto;
+    outline: none;
+    transition: background-color 0.5s, border-color 0.5s; /* Transición suave */
+    box-shadow: 0px 10px 6px rgba(0, 0, 0, 0.1);
+  
+    /* Estilo al pasar el cursor */
+    &:hover {
+        color: rgb(255, 255, 255);
+        border: 2px solid rgb(0, 0, 0);
+        border-radius: 10px;
+      background-color: rgb(0, 0, 0); /* Fondo blanco */
+      border-color: rgb(255, 255, 255); /* Borde negro */
+    }
+  }
+  .no_underline {
+    text-decoration: none;
+  }
+  
+body {
+  margin: 0; /* Eliminar margen predeterminado */
+  padding: 0; /* Eliminar relleno predeterminado */
+}

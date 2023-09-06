@@ -1,0 +1,44 @@
+/* ContactInfo.css */
+
+.contact-info-container {
+  color: white;
+  font-family: "Candara", sans-serif; 
+  text-shadow: 2px 2px 1px black; /* Sombrado de las letras */
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .contact-info-container h2 {
+    font-size: 40px;
+    margin-bottom: 10px;
+  }
+  
+  .contact-info-container p {
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .contact-info-container h3 {
+    font-size: 30px;
+    margin-bottom: 10px;
+  }
+  
+  .social-links {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    font-size: 18px;
+  }
+  
+  .social-links a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .social-links i {
+    margin-right: 5px;
+  }
+
+  

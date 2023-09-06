@@ -1,0 +1,158 @@
+.create-videogame-container {
+    width: 80%;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f5f5f5;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    font-family: "Candara", sans-serif; 
+    font-size: 34px;
+    margin-bottom: 20px;
+    align-content: center;
+}
+
+.selected-platforms {
+    font-family: "Candara", sans-serif; 
+    margin-top: 10px;
+}
+.create-form label {
+    font-family: "Candara", sans-serif; 
+    font-weight: bold;
+    margin-bottom: 18px;
+}
+.create-form input,
+.create-form textarea {
+    width: 100%;
+    padding: 5px;
+    margin-left: 1px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 16px;
+}
+.input-with-button {
+    display: flex;
+    flex-direction: column; /* Coloca los elementos uno encima del otro */
+}
+
+.input-with-button input {
+    flex-grow: 1;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px 0 0 4px;
+}
+
+.input-with-button button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 1px 8px; /* Ajusta el padding para hacer el botón más pequeño */
+    border-radius: 0 4px 4px 0;
+    cursor: pointer;
+    transition: background-color 0.2s;
+    margin-top: -14px; /* Ajusta la posición vertical del botón */
+}
+
+.input-with-button button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+
+
+.create-form div {
+    margin-bottom: 16px;
+}
+.submit-container {
+    text-align: center; /* Para centrar el botón horizontalmente */
+    margin-top: 16px; /* Ajusta el margen según sea necesario */
+}
+
+.create-form button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.create-button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+
+.top-bar {
+    background-color: #151621;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    border: 2px solid black; /* Borde negro de 2px */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Sombra */
+  }
+  .logo-container {
+    display: flex;
+    align-items: center;
+}
+
+.secondary-logo{
+  width: 250px;   
+  height: auto; 
+  margin-top: 40px;
+}
+.primary-logo {
+    width: 150px; /* Ajusta el tamaño según tus necesidades */
+    height: 150px; /* Ajusta el tamaño según tus necesidades */
+    margin-right: 10px; /* Espacio entre los logotipos */
+    margin-top: 20px;
+}
+
+
+
+.error-message {
+    position: relative;
+    margin-top: 4px;
+}
+
+.error-message::before {
+    content: '!';
+    position: absolute;
+    left: -55%; /* Ajusta este valor según tu preferencia */
+    top: 50%;
+    transform: translateY(-50%);
+    width: 20px;
+    height: 20px;
+    background-color: #ff6666;
+    color: white;
+    text-align: center;
+    border-radius: 50%;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.error-message span {
+    background-color: #ff6666;
+    color: white;
+    padding: 4px 8px;
+    border-radius: 4px;
+    position: relative;
+    z-index: 1;
+}
+
+/* Estilos para resaltar los campos con error */
+.create-form input.error,
+.create-form textarea.error {
+    border: 2px solid #ff6666;
+}
+
+.genre-input {
+    width: 100%; /* Establece el ancho al 100% del contenedor */
+    padding: 8px; /* Ajusta el relleno para hacerlo más grande */
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 20px;
+}

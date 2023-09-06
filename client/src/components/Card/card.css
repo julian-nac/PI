@@ -1,0 +1,45 @@
+
+.card {
+  background-color: #ffffff;
+  border: 3px solid #000000;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  padding: 10px;
+  margin: auto;
+  width: 650px; /* Aumenta el ancho de las cartas */
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.card-image-container {
+  width: 100%;
+  height: 250px; /* Establece la altura deseada */
+  overflow: hidden; /* Para recortar las imágenes que excedan el contenedor */
+}
+
+.card-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Ajusta la imagen para llenar el contenedor */
+}
+
+.card-title {
+  margin-top: 10px;
+  font-size: 25px;/* Ajusta el tamaño del título */
+  font-family: "Candara", sans-serif; 
+  font-weight: bold;
+}
+
+.card-label {
+  font-size: 21px;
+  font-family: "Candara", sans-serif; 
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.card-genre,
+.card-rating {
+  font-family: "Candara", sans-serif; 
+  margin-top: 5px;
+  font-size: 25px; /* Ajusta el tamaño del texto de género y calificación */
+}
